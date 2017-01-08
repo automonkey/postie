@@ -1,0 +1,17 @@
+{
+  "name": "postie",
+  "version": "0.0.1",
+  "description": "Amazon Dash button processor for alerts to new postal deliveries",
+  "repository": "automonkey/postie",
+  "private": true,
+  "main": "index.js",
+  "author": "Will Benyon",
+  "license": "MIT",
+  "dependencies": {
+    "node-dash-button": "^0.6.1"
+  },
+  "scripts": {
+    "start": "sudo DASH_BUTTON_MAC_ADDRESS=${DASH_BUTTON_MAC_ADDRESS} node index.js",
+    "findbutton": "./node_modules/node-dash-button/bin/findbutton"
+  }
+}
