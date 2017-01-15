@@ -8,10 +8,11 @@
   "author": "Will Benyon",
   "license": "MIT",
   "dependencies": {
-    "node-dash-button": "^0.6.1"
+    "node-dash-button": "^0.6.1",
+    "request": "^2.79.0"
   },
   "scripts": {
-    "start": "sudo DASH_BUTTON_MAC_ADDRESS=${DASH_BUTTON_MAC_ADDRESS} node index.js",
+    "start": "sudo DASH_BUTTON_MAC_ADDRESS=${DASH_BUTTON_MAC_ADDRESS} SLACK_WEB_HOOK_URL=${SLACK_WEB_HOOK_URL} SLACK_CHANNEL=${SLACK_CHANNEL} node index.js",
     "findbutton": "sudo ./node_modules/node-dash-button/bin/findbutton"
   }
 }
