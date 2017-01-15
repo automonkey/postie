@@ -8,7 +8,7 @@ When the postman delivers a package the button can be pressed and will record th
 
 Execute:
 ```
-sudo DASH_BUTTON_MAC_ADDRESS='<button_mac_address>' npm start
+DASH_BUTTON_MAC_ADDRESS='<button_mac_address>' npm start
 ```
 
 Where `<button_mac_address>` can be found by running `
