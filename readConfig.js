@@ -10,7 +10,7 @@ module.exports = () => {
 
 function environmentVariableOrError(envVar) {
   const val = process.env[envVar];
-  if(val !== undefined) {
+  if (val) {
     return val;
   }
 
