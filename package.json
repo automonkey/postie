@@ -12,6 +12,6 @@
   },
   "scripts": {
     "start": "sudo DASH_BUTTON_MAC_ADDRESS=${DASH_BUTTON_MAC_ADDRESS} node index.js",
-    "findbutton": "./node_modules/node-dash-button/bin/findbutton"
+    "findbutton": "sudo ./node_modules/node-dash-button/bin/findbutton"
   }
 }
